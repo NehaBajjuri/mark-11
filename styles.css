@@ -38,6 +38,12 @@ input{
     color: black;
     background-color: beige;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    margin-bottom: 2rem;
    
+}
+output{
+   font-size: xx-large;
+   padding-top: 2rem;
+   text-align: center;
+   font-family: cursive;
 }

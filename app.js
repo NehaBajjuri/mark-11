@@ -7,7 +7,7 @@ function compare(sum, luckyNum)
 {
     if(sum % luckyNum == 0)  
     {
-        output.innerText = "Your birthday is luckyyy!!";
+        output.innerText = "Your birthday is luckyyy!!🥳";
     }
     else{
         output.innerText = "Your birthday is not so lucky:/" ;
