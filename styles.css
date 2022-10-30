@@ -1,4 +1,43 @@
 h1{
     text-align: center;
+   margin-top: 40px;
+   margin-bottom: 45px;
+   font-weight: 200px;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
     
+}
+body{
+    background-color:aquamarine ;
+    color:black;
+    
+}
+.container{
+    width : 20%;
+    margin:auto;
+}
+input,label{
+    display :block;
+    font-size: large;
+   
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+input{
+    margin-bottom: 2rem;
+    width:50%;
+    height:20px;
+}
+#check-number{
+    display:block;
+    margin-top:1rem;
+    border-right-color: darkgreen;
+    border-top-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    width:100px;
+    color: black;
+    background-color: beige;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+   
 }

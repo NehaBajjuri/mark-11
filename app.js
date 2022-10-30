@@ -3,16 +3,16 @@ var luckyNum = document.querySelector("#lucky-number");
 var checkNumberButton = document.querySelector("#check-number");
 var output = document.querySelector("#out-put");
 
-// function compare(sum, luckyNum)
-// {
-//     if(sum % luckyNum == 0)  
-//     {
-//         output.innerText = "Your birthday is luckyyy!!";
-//     }
-//     else{
-//         output.innerText = "Your birthday is not so lucky:/" ;
-//     }
-// }
+function compare(sum, luckyNum)
+{
+    if(sum % luckyNum == 0)  
+    {
+        output.innerText = "Your birthday is luckyyy!!";
+    }
+    else{
+        output.innerText = "Your birthday is not so lucky:/" ;
+    }
+}
 function showMessage(message) {
     output.innerText = message;
 }
@@ -22,15 +22,8 @@ function checkIfLucky(){
     var sum = calculateSum(dob);
     var num = luckyNum.value;
     if(dob && num){
-   // compare(sum,luckyNum.value);
-   
-   if(sum % luckyNum == 0)  
-   {
-       output.innerText = "Your birthday is luckyyy!!";
-   }
-   else {
-       output.innerText = "Your birthday is not so lucky:/" ;
-   }
+   compare(sum,luckyNum.value);
+ 
  }
             else{
       output.innerText = "Please enter both the fields";  
