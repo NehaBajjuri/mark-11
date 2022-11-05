@@ -22,12 +22,21 @@ function checkIfLucky(){
     var sum = calculateSum(dob);
     var num = luckyNum.value;
     if(dob && num){
-   compare(sum,luckyNum.value);
+        compare(sum,luckyNum.value);
+     
+      }
+
+    if(num === "" || dob==="")
+    {
+        output.innerText = "Please fill up everything";
+        //output.innerText = "Please give the positive integers";
+    }
+    else if( num <= 0){
+        output.innerText = "Please give the positive integers";
+        //output.innerText = "Please fill up everything";
+    }
  
- }
-            else{
-      output.innerText = "Please enter both the fields";  
-            }
+ 
     
 }
 
